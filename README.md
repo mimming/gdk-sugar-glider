@@ -3,6 +3,8 @@ Sugar Glider
 
 Get just lost enough, but not too lost. 
 
+![sugar glider screenshot](http://sugargliderview.com/sugarglider.jpg)
+
 Sugar Glider is an APK Glassware for Google Glass. It provides you with an overhead view of where you are so you can
 explore the world around you without worrying about getting hopelessly lost. 
 
