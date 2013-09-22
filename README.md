@@ -11,7 +11,7 @@ explore the world around you without worrying about getting hopelessly lost.
 1. Build from source or download the apk. 
 1. Install using `adb`.
 
-    $ adb install sugarglider
+`$ adb install sugarglider`
 
 ## Usage
 
