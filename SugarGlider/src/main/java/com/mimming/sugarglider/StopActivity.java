@@ -13,5 +13,6 @@ public class StopActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         stopService(new Intent(this, MapDisplayService.class));
+        this.finish();
     }
 }

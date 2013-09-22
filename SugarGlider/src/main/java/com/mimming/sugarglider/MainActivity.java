@@ -11,5 +11,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         startService(new Intent(this, MapDisplayService.class));
+        this.finish();
     }
 }
