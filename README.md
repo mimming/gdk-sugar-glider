@@ -20,3 +20,8 @@ explore the world around you without worrying about getting hopelessly lost.
 1. Start from [Launchy](https://github.com/kaze0/launchy).
 1. Look up. See a map.
 1. Touch or look up again to dismiss. Enjoy the world around you.
+
+## License
+Code for this project is licensed under [APL 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 
+and content is licensed under the 
+[Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
