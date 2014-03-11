@@ -1,1 +1,1 @@
-include ':SugarGlider', ':SugarGliderKiller'
+include ':app'

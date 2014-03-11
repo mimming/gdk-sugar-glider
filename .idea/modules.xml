@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SugarGlider/SugarGlider.iml" filepath="$PROJECT_DIR$/SugarGlider/SugarGlider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sugarglider.iml" filepath="$PROJECT_DIR$/sugarglider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gdk-sugar-glider.iml" filepath="$PROJECT_DIR$/gdk-sugar-glider.iml" />
     </modules>
   </component>
 </project>

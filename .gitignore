@@ -1,0 +1,4 @@
+#ignore generated files
+/app/build*
+*.DS_Store
+/local.properties
