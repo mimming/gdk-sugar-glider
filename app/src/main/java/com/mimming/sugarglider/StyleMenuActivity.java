@@ -23,7 +23,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * This activity manages the options menu that appears when the user taps on the Live Card.
+ * This activity manages the options menu that appears when the user taps
+ * on the Live Card.
  */
 public class StyleMenuActivity extends Activity {
 

@@ -33,7 +33,6 @@ import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.google.android.glass.timeline.LiveCard;
-import com.google.android.glass.timeline.TimelineManager;
 
 import java.util.List;
 
@@ -163,8 +162,7 @@ public class MapDisplayService extends Service {
 
     private void publishCard(Context context, RemoteViews remoteViews) {
         if (mLiveCard == null) {
-            TimelineManager tm = TimelineManager.from(context);
-            mLiveCard = tm.createLiveCard(LIVE_CARD_TAG);
+            mLiveCard = new LiveCard(context, LIVE_CARD_TAG);
             mLiveCard.setViews(remoteViews);
 
             Intent intent = new Intent(context, MenuActivity.class);

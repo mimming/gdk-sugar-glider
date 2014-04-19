@@ -89,7 +89,7 @@ public class SetMapZoomActivity extends Activity {
                             mMapZooms.put(finalI, imageView);
 
                             // Since we have new data, update the card scroll view
-                            mCardScrollView.updateViews(true);
+                            mCardScrollView.getAdapter().notifyDataSetChanged();
                         }
                     });
                 }
@@ -138,13 +138,7 @@ public class SetMapZoomActivity extends Activity {
     private class SetMapZoomScrollAdapter extends CardScrollAdapter {
 
         @Override
-        public int findIdPosition(Object id) {
-            // Not implemented
-            return -1;
-        }
-
-        @Override
-        public int findItemPosition(Object item) {
+        public int getPosition(Object item) {
             return mMapZooms.indexOfValue((View) item);
         }
 
